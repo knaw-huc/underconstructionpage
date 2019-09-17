@@ -3,6 +3,11 @@ html {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #1779c9;
+}
+
 .wrapper{
   width: 100vw;
   min-height: 100vh;
