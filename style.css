@@ -1,0 +1,42 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper > *{
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 3rem;
+  padding: 0 2rem;
+}
+
+img {
+  width: auto;
+  height: 100px;
+}
+
+.institutes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,700');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 150%;
+	font-style: normal;
+}
